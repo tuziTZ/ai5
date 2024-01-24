@@ -33,7 +33,7 @@ torchvision~=0.14.1
 │   train.txt		训练集
 │   utils.py		模型训练和预测所需要的工具，包括数据预处理和模型定义
 │   
-├───bert-base-uncased	bert		预训练模型
+├───bert-base-uncased	bert预训练模型
 │   
 └───data		图片和文本数据
 ```
