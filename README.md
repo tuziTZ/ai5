@@ -24,21 +24,25 @@ torchvision~=0.14.1
 
 ### 文件结构
 
-│   main.py			    			主程序，训练并验证
-│   predict.py						加载保存的.pth文件并预测
-│   README.md					本文件
-│   requirements.txt			执行本项目的环境中需要的包
+```
+│   main.py			    				主程序，训练并验证
+│   predict.py							加载保存的.pth文件并预测
+│   README.md								本文件
+│   requirements.txt				执行本项目的环境中需要的包
 │   test_without_label.txt	测试集
-│   train.txt							训练集
-│   utils.py							 模型训练和预测所需要的工具，包括数据预处理和模型定义
+│   train.txt								训练集
+│   utils.py							 	模型训练和预测所需要的工具，包括数据预处理和模型定义
 │   
-├───bert-base-uncased	bert预训练模型
+├───bert-base-uncased	bert	预训练模型
 │   
-└───data							图片和文本数据
+└───data										图片和文本数据
+```
+
+
 
 ### 执行方法
 
-将实验数据放在data文件夹中，在https://huggingface.co/bert-base-uncased下载bert预训练模型（本仓库中也含有）
+将实验数据放在data文件夹中，在 https://huggingface.co/bert-base-uncased 下载bert预训练模型（本仓库中也含有）
 
 安装需求包，并执行以下命令：
 
