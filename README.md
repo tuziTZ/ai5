@@ -25,17 +25,17 @@ torchvision~=0.14.1
 ### 文件结构
 
 ```
-│   main.py			    				主程序，训练并验证
-│   predict.py							加载保存的.pth文件并预测
-│   README.md								本文件
-│   requirements.txt				执行本项目的环境中需要的包
-│   test_without_label.txt	测试集
-│   train.txt								训练集
-│   utils.py							 	模型训练和预测所需要的工具，包括数据预处理和模型定义
+│   main.py		主程序，训练并验证
+│   predict.py		加载保存的.pth文件并预测
+│   README.md		本文件
+│   requirements.txt		执行本项目的环境中需要的包
+│   test_without_label.txt		测试集
+│   train.txt		训练集
+│   utils.py		模型训练和预测所需要的工具，包括数据预处理和模型定义
 │   
-├───bert-base-uncased	bert	预训练模型
+├───bert-base-uncased	bert		预训练模型
 │   
-└───data										图片和文本数据
+└───data		图片和文本数据
 ```
 
 
